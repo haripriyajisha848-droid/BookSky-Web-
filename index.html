@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Booksky</title>
+        <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"></head>
+    <body>
+        <h1 class="one">Booksky</h1>
+        <div class="two">
+            <div class="three">
+                <h2>Rich Dad Poor Dad</h2>
+                <h5>Robert</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime eveniet, quos cumque neque ullam accusantium, unde, nobis ipsum earum corporis suscipit pariatur ipsam obcaecati. Sequi recusandae maiores veniam magni laborum.</p>
+                <button onclick="del(event)">Delete</button>
+            </div>
+            
+
+        </div>
+        <div class="four"><button id="add" >+</button> </div>
+
+        <div class="popoverlay"></div>
+        <div class="pop-up">
+            <h2>Add Book</h2>
+            <form>
+<input class="title" id="t" type="text" placeholder="Book Title">
+<input class="author" id="au" type="text" placeholder="Book Author">
+<textarea class="des" id="de" placeholder="Short Description"></textarea>
+<button id="add1" >Add</button>
+<button id="cancel" >Cancel</button>
+           </form>
+        </div>
+        <script src="node.js">
+
+        </script>
+    </body>
+</html>
